@@ -17,38 +17,53 @@ li, p{
 }
 
 #title {
-    /* for debug */
-    border: 1px red solid; 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #paraContainer {
-    /* for debug */
-    border: 1px red solid;
     display: flex;
     flex-direction: column;
 }
 
-/* for debug */
+#courseStart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 10px 0px
+}
+
+#startButton {
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    color: #0A0A1F;
+    padding: 14px 40px;
+    border-radius: 10px 0px 10px 0px;
+    width: 250px;
+    background-image: linear-gradient(to bottom right, #00F0FF, #FF2CDF);
+    transition-duration: 0.4s;
+}
+
+#startButton:hover {
+    background: linear-gradient(90deg, #00B8CC 0%, #D11AC6 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #FF2CDF, 0 0 24px #00F0FF;
+}
+
 #para1, #para2 {
-    border: 1px red solid;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #learningPaths {
-    /* for debug */
-    border: 1px red solid;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .boxes {
-    border: 1px red solid;
     width: 100%;
     display: flex;
     flex-direction: row;
