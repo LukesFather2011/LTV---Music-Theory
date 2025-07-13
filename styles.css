@@ -40,8 +40,19 @@ li, p{
 }
 
 .boxes {
+    border: 1px red solid;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
+}
+
+#box1, #box2, #box3, #box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    color: #00F0FF;
 }
