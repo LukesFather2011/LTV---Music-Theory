@@ -5,10 +5,17 @@ html {
 .header {
     color: #FF2CDF;
     font-family: "Orbitron", sans-serif;
+    margin-bottom: 5px;
 }
 
 #mainHeader {
     color: #00F0FF;
+    margin-bottom: 0px;
+}
+
+#subHeader {
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 li, p{
@@ -31,7 +38,7 @@ li, p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0px 10px 0px
+    padding: 40px 0px 40px 0px
 }
 
 #startButton {
@@ -61,6 +68,10 @@ li, p{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#learningPathHeader {
+    padding-bottom: 25px;
 }
 
 .boxes {
